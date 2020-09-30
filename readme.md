@@ -20,8 +20,47 @@ Run test (Jest)
 
 
 
+## Game Mechnics
+### inventory
+- items
+- potions
+- weapons
+### documentation
+- tutorial
+- guides
+### character
+- progression
+- skill tree
+- classes
+- stats
+### abilities
+- skills
+- effects
+- magics
+### assets
+- gfx
+- sfx
+- tiles
+### props
+- npc
+- shop
+- town
+- dialogue
+- quests
+### world
+- areas
+- quests
+### character
+- monster
+- behaviours
+- factions
+### intereaction
+- combats
+- movement
 
 
+
+## References
 memory management with groups
 https://blog.ourcade.co/posts/2020/phaser-3-optimization-object-pool-class/
 
@@ -85,3 +124,43 @@ https://www.youtube.com/user/dearthsmiter/videos
 
 opensource graphics
 https://itch.io/game-assets/free
+
+texture packer
+https://www.youtube.com/watch?v=qEoD3ZXpR4c
+http://free-tex-packer.com/webpack/
+https://github.com/imagemin/imagemin
+https://github.com/sporadic-labs/tile-extruder
+
+isomatrics
+http://rotates.org/phaser/iso/
+https://gamedevelopment.tutsplus.com/tutorials/creating-isometric-worlds-primer-for-game-developers-updated--cms-28392
+
+hexagons
+https://www.emanueleferonato.com/2015/01/29/understanding-hexagonal-tiles-updated-with-html5-examples-thanks-to-phaser/
+https://github.com/matlintz/Phaser-3-documented-examples/blob/master/src/scenes/HexGridScene.ts
+https://www.emanueleferonato.com/2015/01/29/understanding-hexagonal-tiles-updated-with-html5-examples-thanks-to-phaser/
+
+
+settext
+    text.setText([
+        'x: ' + pointer.x,
+        'y: ' + pointer.y,
+        'mid x: ' + pointer.midPoint.x,
+        'mid y: ' + pointer.midPoint.y,
+        'velocity x: ' + pointer.velocity.x,
+        'velocity y: ' + pointer.velocity.y,
+        'movementX: ' + pointer.movementX,
+        'movementY: ' + pointer.movementY
+    ]);
+
+loader after scene created
+https://rexrainbow.github.io/phaser3-rex-notes/docs/site/loader/#loading-after-preload-stage
+
+smooth antimation using delta
+https://phaser.io/examples/v3/view/timestep/variable-smooth-step
+
+path fiding
+https://blog.ourcade.co/posts/2020/phaser-3-point-click-pathfinding-movement-tilemap/
+https://github.com/prettymuchbryce/easystarjs
+https://gamedevacademy.org/how-to-use-pathfinding-in-phaser/
+https://jsfiddle.net/juwalbose/pu0gt7nc/
